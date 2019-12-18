@@ -3,7 +3,7 @@
 ### MVC 패턴2를 이용한 JSP&Servlet 스포츠 게시판 프로젝트, 게시판 글 작성시 API사용
 
 ## 개발 환경
-eclipse Jee
+eclipse Jee  
 os : window10  
 language : java1.8, html5, css3, jsp, javascript(jquery)  
 database : mysql  
