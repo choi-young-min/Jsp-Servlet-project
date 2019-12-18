@@ -20,3 +20,4 @@ ORM : mybatis
 - 각각의 board에 list 목록 출력 (database select)  
 - 게시판 write, id 일치시 update,delete (database insert,update,delete)  
 - 게시판 각각의 글마다 댓글 기능  
+- 게시판, 댓글 페이징 처리  
