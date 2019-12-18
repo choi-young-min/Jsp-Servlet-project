@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="reply">
+	<insert id="reply_insert">
+		insert into reply values(#{bno}, #{content}, #{w_id})
+	</insert>
+	<select id="get_reply" resultType="ReplyDTO">
+	select * from reply where bno=#{bno} limit #{start},#{cnt}
+	</select>
+	<select id="reply_count" resultType="float">
+		select count(*) from reply where bno=#{bno}
+	</select>
+	
+</mapper>
