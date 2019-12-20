@@ -21,3 +21,10 @@ ORM : mybatis
 - 게시판 write, id 일치시 update,delete (database insert,update,delete)  
 - 게시판 각각의 글마다 댓글 기능  
 - 게시판, 댓글 페이징 처리  
+
+
+### 주요 업무
+
+main 페이지 배치와 css 적용
+Controller와 각각의 기능별 action 개발 작업
+Mybatis mapper 클래스를 이용한 database Access 작업
