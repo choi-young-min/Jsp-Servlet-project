@@ -25,6 +25,6 @@ ORM : mybatis
 
 ### 주요 업무
 
-main 페이지 배치와 css 적용
-Controller와 각각의 기능별 action 개발 작업
-Mybatis mapper 클래스를 이용한 database Access 작업
+main 페이지 배치와 css 적용  
+Controller와 각각의 기능별 action 개발 작업  
+Mybatis mapper 클래스를 이용한 database Access 작업  
